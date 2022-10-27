@@ -1,12 +1,12 @@
 pipeline {
 	   agent any
-		environment {
-	       PATH = "/opt/maven/bin:$PATH"
-	}
+		//environment {
+	       //PATH = "/opt/maven/bin:$PATH"
+	//}
 		stages {
 	      stage('Git Checkout') {
 	         steps {
-	            git 'https://github.com/saidevmalik/mediclaim.git'
+	            git 'https://github.com/kothasahi/mediclaim.git'
 			}
 		}
 			 stage ('Build') {
