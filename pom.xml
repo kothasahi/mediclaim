@@ -80,11 +80,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://13.232.61.239:8081/repository/halloworld/</url>
+			<url>http://10.180.97.196:8081/repository/docker-private-registry/</url>
 		</snapshotRepository>
 		<repository>
              <id>nexus</id>
-             <url>http://13.232.61.239:8081/repository/halloworld/</url>
+             <url>http://10.180.97.196:8081/repository/docker-private-registry/</url>
        	     </repository>
 	</distributionManagement>
 	<build>
