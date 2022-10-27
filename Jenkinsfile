@@ -61,8 +61,8 @@ pipeline {
 	//		  stage ('Deploy') {
 	//	     steps {
 	//	     sh 'mvn clean deploy'
-	}
-	}
+	//}
+	//}
 			//stage ('Release') {
 		     //steps {
 		     //sh 'export JENKINS_NODE_COOKIE=dontkillme ;nohup java -jar $WORKSPACE/target/*.jar &'
