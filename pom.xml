@@ -80,11 +80,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://10.180.97.196:8081/repository/maven-snapshots/</url>
+			<url>http://10.180.97.196:8081/repository/nexus-snapshot-repo/</url>
 		</snapshotRepository>
 		<repository>
              <id>nexus</id>
-             <url>http://10.180.97.196:8081/repository/maven-releases/</url>
+             <url>http://10.180.97.196:8081/repository/nexus-release-repo/</url>
        	     </repository>
 	</distributionManagement>
 	<build>
